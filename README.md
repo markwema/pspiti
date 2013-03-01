@@ -21,4 +21,4 @@ Szablon pliku HTML5:
   <p>ąćęłńóśźż ĄĆĘŁŃÓŚŹŻ</p>
 </body>
 </html>
-```html
+```
