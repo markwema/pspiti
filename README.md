@@ -1,5 +1,9 @@
 # Notatki do Technoogii Internetowych
 
+> Dzień bez kodowania to dzień stracony
+
+
+
 Znaczniki:
 
 * p
