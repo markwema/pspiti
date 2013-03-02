@@ -16,7 +16,7 @@ int main(){
  scanf("%lf",&r);/*  czyta wartosc promienia z kalwiatury */
  printf("Pole wynosi S=%lf, a dlugosc L=%lf",pi*r*r,2*pi*r); 
  
- getchar();
+ getchar();/* enter ze scanf() w buforze */
  getchar();
  return 0;
 }   
