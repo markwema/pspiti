@@ -1,12 +1,13 @@
 # jp
-```C
+```c
 int main() {
   printf(("Witaj świecie\n";
 }
 
 ```
 Program obliczajacy pole o obwod kola
-```C
+
+```c
 #include <stdio.h>
 #include <math.h>
 int main(){
@@ -24,7 +25,7 @@ int main(){
 
 Przeliczanie tamperatury Fahrenheita->Celsius
 
-```C
+```c
 #include <stdio.h>
 
 int main(){
