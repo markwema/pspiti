@@ -1,10 +1,11 @@
 # jp
+
 ```c
 int main() {
   printf(("Witaj świecie\n";
 }
-
 ```
+
 Program obliczajacy pole o obwod kola
 
 ```c
@@ -73,6 +74,35 @@ int main(){
 int fahr;
 for(fahr=LOWER;fahr <= UPPER;fahr=fahr+STEP)
 printf("%d3d %6.1lf\n",fahr,(5.0/9.0)*(fahr-32.0));
+getchar();
+return 0;
+}
+```
+
+Ciąg Fibonaciego
+
+```c
+#include <stdio.h>
+
+
+int main(){
+int n1,n2,n3; /*kolejne wyrazy ciagu */
+int n; /* numer wyrazu*/
+int i; /* licznik */
+    do{printf("Podaj numer wyrazu (co najmniej 3):");
+         scanf("%d",&n);
+         }
+         while(n<3);
+         n1=n2=1;  /* dwa pierwsze wyrazy ciągu*/
+         i=2;
+         while(i++<n) /*uwaga, musi być n>2*/
+         {
+                      n3=n1+n2;
+                      n1=n2;
+                      n2=n3;
+                      }     
+     printf("Wyraz o numerze %d ma wartosc %d:",n,n3);       
+getchar();
 getchar();
 return 0;
 }
