@@ -60,7 +60,7 @@ double fahr,celsius; /* deklaracja temperatur */
             return 0;
             }
 ```
-Kolejna wersja z użyciem preprocesora
+Kolejna wersja konwersji temperatur z użyciem deklaracji preprocesora
 ```c
 #include <stdio.h>
 #define LOWER 0
