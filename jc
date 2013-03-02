@@ -3,4 +3,19 @@
 int main() {
   printf(("Witaj świecie\n";
 }
+
+
+#include <stdio.h>
+#include <math.h>
+int main(){
+ double r;
+ const double pi=M_PI;
+ printf("Podaj promien kola\n");
+ scanf("%lf",&r);/*  czyta wartosc promienia z kalwiatury */
+ printf("Pole wynosi S=%lf, a dlugosc L=%lf",pi*r*r,2*pi*r); 
+ 
+ getchar();
+ getchar();
+ return 0;
+}   
 ```
