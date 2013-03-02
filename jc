@@ -21,3 +21,24 @@ int main(){
  return 0;
 }   
 ```
+
+Przeliczanie tamperatury Fahrenheita->Celsius
+
+```C
+#include <stdio.h>
+
+int main(){
+ int fahr,celsius; /* deklaracja temperatur */
+ int lower, upper, step; /* zakres temperatur i krok */
+ lower=0;
+ upper=300;
+ step=20;
+ fahr=lower; /* instrukcja podstawienia */
+ while(fahr <= upper){
+            celsius=5*(fahr-32)/9;
+            printf("%d \t %d\n",fahr,celsius);
+            fahr=fahr+step;}
+            getchar();
+            return 0;
+            }
+```
