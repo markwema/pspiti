@@ -4,7 +4,9 @@ int main() {
   printf(("Witaj świecie\n";
 }
 
-
+```
+Program obliczajacy pole o obwod kola
+```C
 #include <stdio.h>
 #include <math.h>
 int main(){
