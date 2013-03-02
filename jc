@@ -131,3 +131,28 @@ putchar('\n');
 getchar(); getchar();
 }
 ```
+
+Zadanie 1
+```c
+#include <stdio.h>
+
+
+
+int main(){
+int i;
+for(i=0;i<24;i++)
+printf("%d ,", i);
+putchar('\n');
+i=0;
+while(i<24){
+            printf("%d ,", i);
+            i++;}
+putchar('\n');
+i=0;
+do{printf("%d ,", i);
+i++;
+}
+while(i<24);     
+getchar();
+}
+```
