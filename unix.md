@@ -28,7 +28,9 @@ ciąg miepustych słów oddzielonych ostępami. Pierwsze słowo jest nazwą pole
 Prócz przypadków wymienionych poniżej pozostałe słowa są przekazywane jako argumenty do wykonywanego  polecenia.
 Nazwa polecenia przekazywana jest jako parameter zerowy.
 
+
 __Przykład__
+
 
   cat plik1 plik2
   
