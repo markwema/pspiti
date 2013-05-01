@@ -19,3 +19,15 @@ __nazwa__ ciąg liter, cyfr i znaków nie zaczynający się od cyfry
 __parametry__ nazwa, cyfra lub którykolwiek ze znaków: "*", "@", "#","?", "-", "$", "!"
 
 -----------------------------
+
+### Składnia
+
+__Proste_polecenie__
+
+ciąg miepustych słów oddzielonych ostępami. Pierwsze słowo jest nazwą polecenia/programu do wywołania. 
+Prócz przypadków wymienionych poniżej pozostałe słowa są przekazywane jako argumenty do wykonywanego  polecenia.
+Nazwa polecenia przekazywana jest jako parameter zerowy.
+
+__Przykład__
+  cat plik1 plik2
+  "cat" - polecenia, "plik1", "plik2" - argumenty
