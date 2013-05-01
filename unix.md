@@ -29,5 +29,14 @@ Prócz przypadków wymienionych poniżej pozostałe słowa są przekazywane jako
 Nazwa polecenia przekazywana jest jako parameter zerowy.
 
 __Przykład__
+
   cat plik1 plik2
+  
   "cat" - polecenia, "plik1", "plik2" - argumenty
+  
+__Potok__
+
+Polecenie lub sekwencja poleceń (niekoniecznie prostych) oddzielonych od siebie znakiem "|" lub "*".
+Standardowe wyjście każdego polecenia stanowi standardowe wejście następnego polecenia.
+Każde polecenie wykonywane jest jako osobny proces (być może za wyjątkiem oststniego, jeśli jest ono poleceniem
+wbudowanym). Powłoka czeka, aż ostanie polecenie potoku zakończy działanie.
