@@ -71,3 +71,13 @@ Symbole "&&" i "||" używane są w celu warunkowego wykonania  listy po ich praw
 symbolu "&&" zostanie wykonana tylko wtedy, gdy potok po jego lewej stronie zwróci zerwoy kod powrotu.
 Lista po prawej stronie symbolu "||" zostanie wykonana tylko wtedy zostanie wykonana tylko wtedy, gdy potok po jego 
 lewej stronie zwróci niezerwoy kod powrotu. Dowowlna liczba znaków "NOWA LINIA" może zastępować w liście średniki.
+
+__Przykłądy__
+
+```
+./my_job dane | sort -r | store & emacs prog.c
+```
+
+Lista składa się z dwóch potoków. Pierwszy potok składa się z poleceń "./my_job dane | sort -r | store"
+i wykonywany jest w tle. Drugie polecenie "emacs prog.c" wywoływany jest synchronicznie: powłoka czeka na jego
+zakończenie przed wyświetleniem kolejnego monitu.
