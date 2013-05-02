@@ -81,3 +81,10 @@ __Przykłądy__
 Lista składa się z dwóch potoków. Pierwszy potok składa się z poleceń "./my_job dane | sort -r | store"
 i wykonywany jest w tle. Drugie polecenie "emacs prog.c" wywoływany jest synchronicznie: powłoka czeka na jego
 zakończenie przed wyświetleniem kolejnego monitu.
+```
+test a -gt b && echo "Źle, nieprawda, że a>b"
+test a -gt b || echo "dobrze, nieprawda, że a>b"
+```
+ Wykonanie pierwszej listy nie powoduje wyświetlenia żadnego komunikatu: praogram test zwróci wartość niezerową
+ , a więc plecenie 'ech ..." nie zostanie wykonane.  W drugim przykładzie wyświetlony zostanie komunikat
+ "dobrze, nieprawda, że a>b".
