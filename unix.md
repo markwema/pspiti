@@ -88,3 +88,24 @@ test a -gt b || echo "dobrze, nieprawda, że a>b"
  Wykonanie pierwszej listy nie powoduje wyświetlenia żadnego komunikatu: praogram test zwróci wartość niezerową
  , a więc plecenie 'ech ..." nie zostanie wykonane.  W drugim przykładzie wyświetlony zostanie komunikat
  "dobrze, nieprawda, że a>b".
+
+### Słowa specjalne
+
+Specjalne zbnaczenie słów jest rozpoznawalne, gdy są one perwszym słowem oraz nie są cytowane;
+
+```
+if then for case esacfor while until do done {}
+```
+
+### Komentarze
+
+Słowa zaczynające się zankiem "#" i wszystkei następne, aż do znaku nowej linii, są przez powłokę ignorowane
+
+### Polecenia
+
+Polecenie jest to proste_polecenie leb jedna z następujących konstrukcji:
+
+```
+for nazwa [in słowo ...] do lsta done
+```
+
