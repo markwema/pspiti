@@ -109,3 +109,6 @@ Polecenie jest to proste_polecenie leb jedna z następujących konstrukcji:
 for nazwa [in słowo ...] do lsta done
 ```
 
+lista będzie  wykonana raz dla każdej kolejenj wartości zmiennej _nazwa_. Zmienna _nazwa_ będzie przyjmowała wartosci
+z ciągu "_słowo_". Jeżeli fraza "_in słowo ..._' zoatnie pominięta, zmienna _nazwa_ będzie przyjmowała kolejne
+wartości parametrów pozycyjnyhc (czyli argumentów wywłąnia) powłoki.
