@@ -112,3 +112,25 @@ for nazwa [in słowo ...] do lsta done
 lista będzie  wykonana raz dla każdej kolejenj wartości zmiennej _nazwa_. Zmienna _nazwa_ będzie przyjmowała wartosci
 z ciągu "_słowo_". Jeżeli fraza "_in słowo ..._' zoatnie pominięta, zmienna _nazwa_ będzie przyjmowała kolejne
 wartości parametrów pozycyjnyhc (czyli argumentów wywłąnia) powłoki.
+
+__Przykład__
+
+```
+for litera in a b c; do /bin/echo -n $litera; done
+
+for litera in a b c
+  do /bin/echo -n $litera
+done
+```
+
+Wyświetlony zostanie ciąg znaków "abc". Proszę zauważyć, że średniki po liście wartości są koniezcne; gdyby ich nie było,
+powłoka nie wiedziałaby, gdzie kończy się lista!
+Drugi przykładb również wyświetli ciąg znaków "abc"; tu znaki nowej linii zastępują średniki.
+
+```
+case słowo in [wzorzec[|wzorzec]...)lista ;;]...esac
+```
+
+Wykonana zostanie lista poleceń występująca bezpośrednio po pierwszym wzorcu pasującym do słowa. Wzorzec ma taką samą 
+postać jak wzorce nazw plików z tą różnicą, że rozpoczynające słowo znaki "/", "." oraz "/." nie muszą zostać
+dopasowane explicite.
