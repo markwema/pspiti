@@ -134,3 +134,8 @@ case słowo in [wzorzec[|wzorzec]...)lista ;;]...esac
 Wykonana zostanie lista poleceń występująca bezpośrednio po pierwszym wzorcu pasującym do słowa. Wzorzec ma taką samą 
 postać jak wzorce nazw plików z tą różnicą, że rozpoczynające słowo znaki "/", "." oraz "/." nie muszą zostać
 dopasowane explicite.
+
+## Substytucja poleceń
+
+Polega na wykonaniu poleceń występującyh między dwoma odwróconymi apostrofami (ang. backquote)- "``" i tekstowych 
+zastąpień tych poleceń rezultatami ich działania tj. ich standardowym wyjściem.
