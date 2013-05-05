@@ -139,3 +139,8 @@ dopasowane explicite.
 
 Polega na wykonaniu poleceń występującyh między dwoma odwróconymi apostrofami (ang. backquote)- "``" i tekstowych 
 zastąpień tych poleceń rezultatami ich działania tj. ich standardowym wyjściem.
+Z ciągu znaków zawartego między odwróconymi apostrofami usuwane są "\" cytujące znaki "\", "'", ",", "$",
+NOWALINIA. Znaki "'" mogą być cytowane, możliwe jest więc zagniżdżanie substytucji poleceń. Pary "\" NOWALINIA są 
+usuwane. Ponieważ znak "\" występujący przed znakiem "$" jest również usuwny, konstrukcja '\4parametr" jest traktowana 
+jak "$parametr". Znak cytujący występujący przed innym znakiem, niż uprzednio, nie jest usuwany.
+
