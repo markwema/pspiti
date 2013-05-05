@@ -144,3 +144,25 @@ NOWALINIA. Znaki "'" mogą być cytowane, możliwe jest więc zagniżdżanie sub
 usuwane. Ponieważ znak "\" występujący przed znakiem "$" jest również usuwny, konstrukcja '\4parametr" jest traktowana 
 jak "$parametr". Znak cytujący występujący przed innym znakiem, niż uprzednio, nie jest usuwany.
 
+### Przykłady
+
+Załóżmy, że w katalogu aktualnym istnieją pliki o nazwach $x,plik1, x". Oto przykładowa sesja z terminalem:
+```
+$ls
+plik1     x'    $x
+$cat plik1 `x"` `$x'  #obejrzyjmy ich zawartość
+to jest plik1
+to jest x"
+plik
+$x=plik1          #nadajemy zmiennej x wartość plik1
+$cat `ls \$x`     #dostajemy cat plik1
+to jest plik1
+$cat `ls \\$x`    #dostaniemy: cat $x
+to jest plik1 
+$cat `ls x\"`     #dostaniemy cat x"
+to jest x"
+$cat `cat \\$x`1  #dostaniemy cat plik1
+to jest plik1
+```
+
+
