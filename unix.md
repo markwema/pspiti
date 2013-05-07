@@ -165,4 +165,19 @@ $cat `cat \\$x`1  #dostaniemy cat plik1
 to jest plik1
 ```
 
+## Substytucja parametrów
 
+Po wykonaniu substytucji poleceń wykonywana jest substytucja parametrów. W powłoce shell zaimlementowane są
+dwa typy: parametery pozycyjne i tzw. zmienne. Parametry pozycyjne oznaczane są cyframi (od 0 do 9), wartość tych
+parametrów zmienia się poleceniem "set". Do zmiennych odwpłujemy się przez ich identyfikator, który jest nazwą.
+Watości nadajemy zmiennym znakiem "=":
+
+```
+nazwa_zmiennej=wartość
+```
+Poznaku "=" nie powinno być odstępu, Nazwa zmiennej nie może kolidować z nazwą funkcji. Do wartości parametru
+odwołujemy się pisząc
+```
+$nazwa_zmiennej,
+lub $n (n=0,1,...,9)
+```
