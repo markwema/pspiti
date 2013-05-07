@@ -181,3 +181,11 @@ odwołujemy się pisząc
 $nazwa_zmiennej,
 lub $n (n=0,1,...,9)
 ```
+### Przykłady
+```
+$x='zmienna x'
+$echo $x
+zmienna x
+$echo $0
+sh
+```
