@@ -31,4 +31,6 @@ Do trybu edycju przechodzi się najczęściej za pomocą znaków jednoliterowych
 * __H__ lewy górny róg ekranu
 * __M__ linia w środku ekrane
 * __L__ ostatnia linia ekranu
+
+
 ## Usuwanie tekstu
