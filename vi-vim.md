@@ -34,3 +34,16 @@ Do trybu edycju przechodzi się najczęściej za pomocą znaków jednoliterowych
 
 
 ## Usuwanie tekstu
+
+* __d$__ usuwa od pozycji kursora do  końca linii
+* __d^__ usuwa od pozycji kursora do  początku linii
+* __dw__ usuwa od pozycji kursora do  końca słowa
+* __db__ usuwa od pozycji kursora do  początku słowa
+* __dh__ usuwa przed kursorem
+* __dl__ usuwa na pozycji kursora
+* __dj__ usuwa od pozycji kursora do  nowej linii, ale ponieważ przekroczono garnice linii, efekt usunięcie 2 linii tekstu
+* __x__ ja __dl__
+* __X__ jak __dh__
+* __D__ jak __d$__
+* __dd__ usuwa linię w której jest kursor
+
