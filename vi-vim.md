@@ -51,3 +51,7 @@ Do trybu edycju przechodzi się najczęściej za pomocą znaków jednoliterowych
 
 * __c__ (change) nowy_adres_kursora tekst_wstawiany [ESC]
 * __cw__ zmienia znaki od bieżacej pozycji kursora do końca slowa
+* __cb__
+* __c$__
+* __c^__
+* __cc__
