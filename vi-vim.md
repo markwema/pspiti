@@ -1,4 +1,4 @@
-# Edytor vi lub jego klona vim
+# Edytor vi lub jego klon vim
 ## Informacje wstępne
 __vi__ jest edytorem służącymdo przetwarzania wierszy, to znaczy ciągówznaków z kodów __ascii__ zakończonych znakiem
 nowej linii. Sesja pracy z edytorem vi zaczyna się od wczytania pliku pobranego do edycji. Edytor zmienia tryb pracy
@@ -50,3 +50,4 @@ Do trybu edycju przechodzi się najczęściej za pomocą znaków jednoliterowych
 ## Zmiany lokalne
 
 * __c__ (change) nowy_adres_kursora tekst_wstawiany [ESC]
+* __cw__ zmienia znaki od bieżacej pozycji kursora do końca slowa
