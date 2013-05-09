@@ -47,3 +47,6 @@ Do trybu edycju przechodzi się najczęściej za pomocą znaków jednoliterowych
 * __D__ jak __d$__
 * __dd__ usuwa linię w której jest kursor
 
+## Zmiany lokalne
+
+* __c__ (change) nowy_adres_kursora tekst_wstawiany [ESC]
